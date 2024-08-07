@@ -4,7 +4,7 @@ from app.start import rout as rout_start
 from app.heandlers import rout as rout_handler
 from app.CreateEvents import rout as rout_create_event
 from app.callback.callback_event import rout as rout_callback_event
-from app.reset_profile import rout as rout_reset_profile
+from app.resetProfile import rout as rout_reset_profile
 from app.DataBase.models import async_main
 from app.Middelware.middelware import IsUserMiddleware
 import config
