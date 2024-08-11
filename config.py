@@ -1,7 +1,7 @@
 import re
 
-TOKEN = '<your token>'
-KEY_CIPHER = b'<your encryption key>'
+TOKEN = '6887191350:AAE5bRQoDsqaqWDkjKk6vL4v0DLQ35lvw6g'
+KEY_CIPHER = b'6266e90bd2a4e6ea1d30c5a7e8c6c18b'
 COUNT_OWNER = 1
 CALLBACK_PATTERN_LEFT = re.compile(r'<--:(.*)$')
 CALLBACK_PATTERN_RIGHT = re.compile(r'-->:(.*)$')
